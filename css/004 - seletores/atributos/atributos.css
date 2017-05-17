@@ -1,0 +1,32 @@
+h1[title]{
+	background-color: gold;
+}
+h1{
+	background-color: #8608ff;
+}
+
+/*a [target="_blank"]{
+	background-color: lime;
+}*/
+
+a[href^=https]{ /* incia*/
+	background-color: blue;
+}
+
+
+/*a[href$=ca]{ /*termina*/
+	background-color: red;
+}*/
+
+
+a[href*=google]{ /* no meio*/
+	background-color: #55ff27;
+}
+
+[title]{
+	font-size: 30px;
+}
+
+h1 ~ h3{
+	background-color: black;
+}

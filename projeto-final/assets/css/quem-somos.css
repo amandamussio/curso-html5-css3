@@ -1,0 +1,121 @@
+.about header {
+	margin: 50px 0 30px;
+}
+.about .title-main {
+	line-height: 1em;
+}
+.about p {
+	text-align: justify;
+
+	/* 
+		Column Count
+		Definir a quantidade de colunas, separando uniformente. 
+
+	*/
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	column-count: 2;
+
+	/* 
+		Column Gap
+		Define o espaço entres as colunas.
+	*/
+
+	-webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
+	column-gap: 30px;
+
+	/* 
+		Column Width
+		Define o tamanho mínimo que as colunas devem ter, se não conseguirem 
+		atingir esse tamanho são automáticamente transformadas em apenas um coluna.
+	*/
+
+	-webkit-column-width: 400px;
+	-moz-column-width: 400px;
+	column-width: 400px;
+
+}
+.gallery-about figure {
+	margin: 30px auto;
+}
+@media(min-width: 768px) {
+	.about {
+		overflow: hidden;
+		min-height: 100%;
+		height: auto;
+	}
+	.gallery-about figure {
+		width: 33.33%;
+		float: left;
+		padding: 0 15px;
+	}
+}
+
+/* ELEMENTS */
+.elements {
+	background-color: #e44d26;
+	color: #fff;
+}
+.elements h2 {
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 800;
+	padding: 55px 10px 25px;
+	font-size: 30px;
+}
+.elements:after {
+	content: '';
+	width: 0;
+	height: 0;
+	border-left:  40px solid transparent;
+	border-right:  40px solid transparent;
+	border-top: 40px solid #e44d26;
+
+	display: block;
+	position: relative;
+	top: 40px;
+	margin: 0 auto;
+}
+@media(min-width: 768px) {
+	.elements h2:before,
+	.elements h2:after {
+		content: '';
+		background-color: #fff;
+		width: 10px;
+		height: 10px;
+		border-radius: 100%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.elements h2:before {
+		margin-right: 8px;
+	}
+	.elements h2:after {
+		margin-left: 8px;
+	}
+}
+
+/* SVG */
+.svg{
+	margin-top: 60px;
+}
+.svg-image {
+	width: 300em;
+}
+.background {
+	background-image: url('../images/smile.svg');
+	/* background-repeat: no-repeat; */
+	background-size: 20em;
+	width: 50em;
+	height: 20em;
+	display: block;
+}
+
+
+
+
+
+
+
+

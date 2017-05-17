@@ -1,0 +1,21 @@
+header h1 {
+	font-size: 30px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+.box {
+	width: 100px;
+	height: 100px;
+	margin-bottom: 10px;
+}
+#box1 {
+	background-color: skyblue;
+	position: relative;
+	right: 40px;
+	top: 20px;
+}
+#box2 {
+	background-color: darksalmon;
+	z-index: 2;
+	position: relative;
+}

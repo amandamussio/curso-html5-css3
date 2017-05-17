@@ -1,0 +1,71 @@
+/* 
+	MEDIDAS 
+
+	Absolutas - cm (centímetro) | in (polegadas/ 1 polegada equivale 2.54cm) 
+	| pt - point (1 point equivale 1/72in) | px - pixel
+	Independetemente do container, ou elemento pai a medida não se altera
+
+	Relativas - % porcentagem | em - 1em equivale a 100%
+	Medida é alterada conforme o elemento pai
+
+	topo 	  top
+	direita	  right
+	abaixo	  bottom
+	esquerda  left
+
+	CORES
+
+	hexadecimais
+	#E0E0E0;
+	#e0e0e0;
+	#000000;
+	#000;
+
+	rgb
+	rgb(255,255,255);
+	
+	rgba
+	rgba(255,255,255,0.5); alpha - 0 á 1 - 0 tranparencia total - 1 cor integra
+
+
+	hsl  hsl(60,360%,100%);
+	hsla hsla(60,180%,180%,0.5);alpha - 0 á 1 - 0 tranparencia total - 1 cor integra
+
+*/
+body {
+	background-color: yellow;
+	font-size: 16px;
+}
+p {
+	font-size: 1em;
+}
+.container {
+	width: 80%;
+	/* Centralizar conteúdos de bloco */
+	margin-right: auto;
+	margin-left: auto;
+}
+#header-main {
+	margin-top: 20px; /* espaçamento entre elementos */
+	margin-bottom: 20px;
+	/* padding-top: 20px;  espaçamento interno do elemento */
+	/* 	
+		padding-bottom: 20px;
+		padding-left: 15px;
+		padding-right: 15px; 
+	*/
+	/* padding: 20px 15px 20px 15px;  top right bottom left */
+	padding: 20px 15px; /* top/bottom right/left */
+	/* padding: 20px 15px 10px;  top right/left bottom */
+}
+#header-main h1 {
+	font-size: 30px;
+}
+a {
+	text-decoration: none; /* padrao(underline), overline */
+	margin: 10px 0; /* top/bottom right/left */
+	display: inline-block; /* inline, inline-block, none, table, block */
+}
+
+
+

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Contato - DRC treinamentos</title>
+
+	<!-- METAS -->
+
+	<!-- Descrição do site limitada a 156 caracteres -->
+	<meta name="description" content="Aprenda HTML5 e CSS3 de forma semântica e em 40 horas">
+
+	<!-- Palavras chaves do meu site -->
+	<meta name="keywords" content="html, html5, css, css3, site, curso, tags, atributos">
+
+	<!-- Autor do site -->
+	<meta name="author" content="Amanda Macedo Mussio">
+
+	<!-- Inicializa meu site na largura do meu dipositivo, e com zoom inicial 1 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/font-icons.css">
+	<link rel="stylesheet" href="assets/css/contato.css">
+
+	<!-- FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+	<!-- FAVICON -->
+	
+
+</head>
+<body>
+
+		<!-- header -->
+		<header id="header-main">
+			<!-- container-header -->
+			<div class="container-header">
+
+				<!-- logo -->
+				<div class="logo">
+					<a href="index.html"><img src="assets/images/logo-html5.png" alt="Curso de HTML5 - Treinamentos" title="Curso de HTML5 - Treinamentos"></a>
+				</div>
+				<!-- /logo -->
+
+				<!-- menu principal -->
+				<nav class="main-menu">
+					<ul>
+						<li><a href="index.html" >Home</a></li>
+						<li><a href="quem-somos.html">Quem Somos</a></li>
+						<li><a href="#">O Curso</a></li>
+						<li class="dropdown">
+							<a href="galeria-fotos.html">Mídias</a>
+							<ul class="submenu">
+								<li><a href="galeria-fotos.html">Galeria de Fotos</a></li>
+								<li><a href="galeria-fotos.html">Áudio</a></li>
+								<li><a href="galeria-fotos.html">Vídeos</a></li>
+							</ul>
+						</li>
+						<li><a href="contato.html" class="active">Contato</a></li>
+					</ul>
+				</nav>
+				<!-- /menu principal -->
+
+			</div>
+			<!-- /container-header -->
+		</header>
+		<!-- /header -->
+
+		<!-- slider -->
+		<section>
+			<article class="slider-html5">
+				<div class="container">
+					
+					<header>
+						<h2>Bem vindo ao Curso de HTML5 e CSS3</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi sequi cumque, inventore! Excepturi, ullam, ipsum.</p>
+						<a href="#" class="button-empty">Saiba Mais</a>
+					</header>
+
+					<img src="assets/images/html5-css3-image-slider.png" class="image-slider">
+
+				</div>
+			</article>
+		</section>
+		<!-- /slider -->
+
+		<!-- Inicio conteudo principal da minha página -->
+		<main>
+			<div class="contato">
+				<div class="container">
+
+					<!-- titulo pagina -->
+					<hgroup>
+						<h1 class="title-main">Fale Conosco</h1>
+						<h3 class="subtitle">Nós queremos saber o que você pensa!</h3>
+					</hgroup>
+					<!-- /titulo pagina -->
+
+					<!-- formulário -->
+					<!-- .JSON -->
+					<form action="http://httpbin.org/post" method="post" name="contato-form" validate>
+
+						<div class="two-fields">
+							<div class="field-left">
+								<input type="text" name="nome" placeholder="Nome Completo" class="input-contato" required>
+							</div>
+							<div class="field-right">
+								<input type="email" name="email" placeholder="Email" class="input-contato" required>
+							</div>
+						</div>
+
+						<div class="two-fields">
+							<div class="field-left">
+								<input type="tel" name="telefone" placeholder="Telefone" class="input-contato">
+							</div>
+							<div class="field-right">
+								<select name="assunto" class="input-contato">
+									<option value="" disabled selected>Assunto</option>
+									<option value="Sugestões">Sugestões</option>
+									<option value="Reclamações">Reclamações</option>
+									<option value="Cursos">Cursos</option>
+								</select>
+							</div>
+						</div>
+
+						<div>
+							<textarea name="mensagem" placeholder="Escreva aqui sua mensagem..." class="input-contato"></textarea>
+						</div>
+
+						<div>
+							<input type="submit" value="Enviar" class="button-color">
+						</div>
+					
+					</form>
+					<!-- /formulário -->
+
+				</div>
+				<!-- /container -->
+
+				<!-- infos -->
+				<div class="infos">
+					<div class="container">
+
+						<!-- titulo infos -->
+						<hgroup>
+							<h1 class="title-main">Unidades</h1>
+							<h3 class="subtitle">Confira a unidade mais próxima de você</h3>
+						</hgroup>
+						<!-- /titulo infos -->
+
+						<div class="unidades">
+							<h4>DRC - ITAIM BIBI</h4>
+							<p><address>Rua Joaquim Floriano, 733 | 8º. Andar - Itaim Bibi -04534-012 | São Paulo - SP</address></p>
+							<p>Tel: <a href="tel:113168-2123">11 3168-2123</a> | Whats: <a href="tel:1199143-4349">11 99143-4349</a></p>
+							<a href="mailto:contato@drc.com.br">contato@drc.com.br</a>
+						</div>
+
+					</div>
+					<!-- /container -->
+				</div>
+				<!-- infos -->
+
+				<!-- mapa -->
+				<div class="mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5248081495542!2d-46.67920458502167!3d-23.585504284670886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce575c430b54a7%3A0x94f588a7539cfd2!2sR.+Joaquim+Floriano%2C+733+-+Itaim+Bibi%2C+S%C3%A3o+Paulo+-+SP%2C+04534-012!5e0!3m2!1spt-BR!2sbr!4v1472134099149" height="450" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<!-- /mapa -->
+
+			</div>
+			<!-- /contato -->
+		</main>
+		<!-- fim conteudo principal -->
+
+		<!-- footer-main -->
+		<footer id="footer-main"> 
+			<div class="container">
+
+				<!-- menu footer -->
+				<nav class="box-footer">
+					<h4 class="title-footer">Institucional</h4>
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Quem Somos</a></li>
+						<li><a href="">O Curso</a></li>
+						<li><a href="">Contato</a></li>
+					</ul>
+				</nav>
+
+				<!-- menu footer -->
+				<nav class="box-footer">
+					<h4 class="title-footer">Mídias</h4>
+					<ul>
+						<li><a href="">Galeria de Fotos</a></li>
+						<li><a href="">Áudios</a></li>
+						<li><a href="">Vídeos</a></li>
+					</ul>
+				</nav>
+				
+				<!-- contato footer -->
+				<div class="box-footer">
+					<h4 class="title-footer">Contato</h4>
+
+					<address>Endereço: Rua Joaquim Floriano,733</address>
+					<p>Tel: <a href="tel:113168-2123">11 3168 2123</a></p>
+					<p>Whats: <a href="tel:1199143-4349">11 99143 4349</a></p>
+				</div>
+
+				<!-- Redes sociais footer -->
+				<div class="box-footer">
+					<h4 class="title-footer">Redes Sociais</h4>
+					
+					<ul class="social-medias">
+						<li>
+							<a href="http://facebook.com/" target="_blank">
+								<i class="icon-facebook"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="http://google.com/" target="_blank">
+								<i class="icon-gplus"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="http://linkedin.com/" target="_blank">
+								<i class="icon-linkedin"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="http://instagram.com/" target="_blank">
+								<i class="icon-instagram"></i>
+							</a>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+		</footer>
+		<!-- /footer-main -->
+	
+</body>
+</html>

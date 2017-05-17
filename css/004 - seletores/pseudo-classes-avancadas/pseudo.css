@@ -1,0 +1,18 @@
+h1:first-child{
+	background-color: lime;
+}
+h1:last-child{
+	background-color: deeppink;
+}
+h1:first-of-type{
+	background-color: purple;
+}
+
+span:nth-child(3){
+	background-color: red; 
+} /* terceira tag que seja X*/
+
+span:nth-of-type(3){
+	background-color: yellow;
+} /*terceira tag do tipo indepnde do que tenha entre um tage outra*/
+/*nth -  alinhamento*/

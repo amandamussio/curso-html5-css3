@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	background-color: #ccc;
+	height: 60px;
+	margin-top: 38px;
+}
+header h1 {
+	font-size: 25px;
+	padding: 5px;
+}
+article p {
+	font-size: 24px;
+	margin: 0 300px 20px 0;
+}
+.menu-main {
+	background-color: skyblue;
+	padding: 10px;
+	position: fixed;
+	/* 	
+		top: 0;
+		right: 0;
+		left: 0; 
+	*/
+	top: 0;
+	width: 100%;
+}
+.menu-main ul li {
+	display: inline-block;
+	margin: 0 5px;
+}
+.menu-main ul li a {
+	color: blue;
+	text-decoration: none;
+}
+.menu-main ul li a:hover {
+	border-bottom: 3px solid blue;
+}
+.menu-fixed {
+	background-color: pink;
+	border: 3px dashed yellow;
+	width: 250px;
+	padding: 10px;
+	position: fixed;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 2;
+}
+.menu-fixed ul li {
+	list-style: none;
+}
+
+
+
+

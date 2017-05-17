@@ -1,0 +1,61 @@
+.img-right {
+	float: right;
+}
+.content {
+	border:  3px solid red;
+	overflow: hidden;
+	height: auto;
+	min-height: 100%;
+	/*overflow: hidden;  auto | scroll | visible | hidden */
+}
+.content-left {
+	float: left;
+	background-color: salmon;
+}
+
+/* EXEMPLO 2 */
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: #ccc;
+}
+.conteudo {
+	background-color: skyblue;
+/* 	overflow: hidden;
+	min-height: 100%;
+	height: auto; */
+}
+.artigo { 
+	background-color: #fff;
+	background-clip: content-box; /* não colore o padding da div */
+	padding: 15px;
+	width: 50%;
+ }
+ .artigo p {
+ 	color:  blue;
+ 	padding: 15px;
+ }
+ .artigo-left {
+ 	float: left;
+ }
+ .artigo-right {
+ 	float: right;
+ }
+
+.clearfix:before,
+.clearfix:after  {
+	content: '';
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+
+
+
+
+
+
+

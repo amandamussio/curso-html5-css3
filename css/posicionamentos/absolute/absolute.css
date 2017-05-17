@@ -1,0 +1,43 @@
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	position: relative;
+}
+.box-container {
+	width: 750px;
+	height: 500px;
+	margin: 0 auto;
+	background-color: #ccc;
+	position: relative;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+
+#esquerda-top {
+	background-color: beige;
+	left: 0;
+	top:  0;
+}
+#esquerda-bottom {
+	background-color: tomato;
+	bottom: 0;
+	left: 0;
+}
+
+#direita-top {
+	background-color: pink;
+	right: 0;
+	top: 0;
+}
+
+#direita-bottom {
+	background-color: darkblue;
+	bottom: 0;
+	right: 0;
+}
+
+

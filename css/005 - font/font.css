@@ -1,0 +1,18 @@
+@font-face{
+	font-family: "SF Quartzite";
+	src: url("SF Quartzite.ttf")
+}
+
+.serif{
+	font-family: "Times New Roman", Times, serif;
+}
+.sans-serif{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.monospace{
+	font-family: "Courier New", Courier, monospace;
+}
+
+.sf{
+	font-family: "SF Quartzite";
+}

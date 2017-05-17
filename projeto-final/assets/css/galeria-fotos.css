@@ -1,0 +1,16 @@
+.gallery-photos {
+	overflow: hidden;
+	min-height: 100%;
+	height: auto;
+	margin: 50px 0;
+}
+.gallery-photos hgroup {
+	margin-bottom: 50px;
+}
+.box-gallery {
+	width: 25%;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 20px;
+}

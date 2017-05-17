@@ -1,0 +1,120 @@
+* {
+	/* -wmso-box-sizing */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-family: Verdana,'Arial Black',sans-serif; 
+	/* fontes escritas exatamente da forma que vem no sistema operacional, 
+	se for nome composto dentro de aspas simples */
+	font-size: 16px; /* fz16 */
+}
+.container {
+	width: 1024px; /* w1024 */
+	/* CENTRALIZAR */
+	margin: 0 auto;
+	background-color: #e3e3e3; /* bgc */
+}
+
+/* HEADER */
+#header-main {
+	background-color: #819E83;
+	padding: 30px 10px 30px 20px;
+}
+#header-main h1 {
+	font-size: 30px;
+	font-weight: bold; /* lighter bold bolder / 100 200 300 400 500 600 700 800 */
+}
+
+/* MENU */
+.menu {
+	background-color: #24374F;
+	padding: 20px;
+}
+.menu ul li {
+	display: inline-block;
+}
+.menu ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 0 10px;
+}
+.menu ul li a:hover {
+	color: #E7F2C9;
+	text-decoration: underline;
+	/* background-color: skyblue; */
+}
+.menu ul li a:visited {
+	/* background-color: white; */
+	color: black;
+}
+.menu ul li a.active {
+	color: #E7F2C9;
+}
+
+/* CONTEÚDO */
+.content-site,
+.sidebar {
+	height: 600px;
+	padding: 20px;
+}
+.content-site {
+	background-color: #fff;
+	width: 724px;
+	float: left;
+}
+.content-site > h2 { /* seletor de filho direto */
+	font-size: 22px;
+	text-transform: uppercase;
+	color: #819E83;
+	padding: 20px 0;
+}
+.content-site article h2 {
+	font-weight: bold;
+	font-family: 'Arial Black';
+	margin-bottom: 10px;
+}
+.content-site article p {
+	line-height: 1.5em;
+	margin-bottom: 10px;
+}
+.content-site article {
+	margin-bottom: 30px;
+}
+
+/* SIDEBAR */
+.sidebar {
+	background-color: #24374F;
+	width: 300px;
+	float: right;
+}
+.sidebar nav ul li {
+	margin-bottom: 10px;
+	color: #fff;
+}
+.sidebar nav ul li a {
+	color: inherit;
+	text-decoration: none;
+}
+.sidebar nav ul li a:hover {
+	color: #819E83;
+	text-decoration: overline;
+}
+
+/* FOOTER */
+.footer-main {
+	background-color: #819E83;
+	padding: 30px 20px;
+	clear: both; /* left right Limpa as flutuações anteriores ao
+	elemento para que ele se posicione corretamente*/
+}
+.footer-main small{
+	font-size: 18px;
+	color: #fff;
+}
+
+

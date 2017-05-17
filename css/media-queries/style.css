@@ -1,0 +1,35 @@
+/* 
+	MEDIA QUERIES 
+	 ---- 390PX EXTRA EXTRA SMALL DEVICES
+	768PX -- EXTRA SMALL DEVICES
+	768PX A 992PX - SMALL DEVICES
+	992PX A 1200PX - MEDIUM DEVICES
+	1200PX - LARGE DEVICES
+*/
+
+.box {
+	background-color: blue;
+	height: 300px;
+}
+/* até a resolução 768px leva esse comportamento */
+@media(max-width: 768px) {
+	.box {
+		width: 50%;
+		background-color: red;
+	}
+}
+
+/* a partir da resolução 768px leva esse comportamento */
+@media(min-width: 768px) and (max-width: 1200px) {
+	.box {
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+@media(min-width: 1200px) {
+	.box {
+		width: 20%;
+		margin: 0 auto;
+	}
+}

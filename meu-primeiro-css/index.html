@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Meu Primeiro CSS</title>
+
+	<!-- FORMA INCORPORADA -->
+	<style type="text/css">
+		/* 
+			SYNTAX
+
+			elemento {
+				propriedade: valor;
+			} 
+		*/
+
+		p {
+			color:  blue;
+		}
+		.cor-paragrafo {
+			text-transform: uppercase; 
+			/* 			
+				uppercase - maisculo , 
+				lowercase - minusculo, 
+				capitalize - a primeira letra de cada palavra em maiscula 
+			*/
+		}
+		span.cor-paragrafo {
+			color: red;
+		}
+		#header-main {
+			background-color: salmon;
+		}
+
+	</style>
+
+	<!-- Forma EXTERNA -->
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+	<!-- 
+		3 FORMAS DE INCORPORAR O CSS 
+
+		- Inline - no próprio elemento, através do atributo style.
+		- incorporada - adicionada no head da página
+		- Externa
+	-->
+	<div class="container">
+		<header id="header-main">
+			<h1>Meu Primero Estilo CSS</h1>
+		</header>
+
+		<main>
+			
+			<article>
+				<p>Lorem ipsum dolor <span class="cor-paragrafo">sit amet</span>, consectetur adipisicing elit. Voluptas id ipsum incidunt eum ratione quae vel error, atque similique maxime!</p>
+
+				<p>Voluptate dolorem beatae, nemo <span class="cor-paragrafo">pariatur</span> voluptatem minima unde, aut neque culpa, veniam veritatis eveniet optio. In quam voluptatem recusandae obcaecati?</p>
+
+				<p><span class="cor-paragrafo">In reprehenderit</span> quos ipsa culpa impedit fuga minus et id iusto. At expedita mollitia sint doloribus velit eum enim ullam!</p>
+				
+				<a href="#">Veja Mais</a>
+
+			</article>
+
+		</main>
+
+		<footer>
+			<small class="cor-paragrafo">&copy 2016 - Desenvolvido por Amanda Mussio </small>
+		</footer>
+	</div>	
+	
+</body>
+</html>

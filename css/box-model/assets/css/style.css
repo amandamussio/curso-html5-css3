@@ -1,0 +1,30 @@
+* {
+	/* 
+		VENDOR PREFIX 
+		-webkit- / Chrome e Safari
+		-moz- Firefox
+		-ms- IE+9
+		-o- Opera
+
+		Atalho Emmet
+		-wmso-propriedade
+	*/
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box; /* content-box */
+}
+.box {
+	width: 500px;
+	height: 200px;
+	background-color: salmon;
+	padding: 20px;
+}
+.text {
+	background-color: #fff;
+}
+.text p {
+	font-size: 16px;
+	color: #666;
+}
