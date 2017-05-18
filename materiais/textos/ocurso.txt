@@ -1,0 +1,143 @@
+Curso de HTML5 e CSS3
+Confira o que você vai aprender!
+
+Aprenda no curso de HTML os conceitos essenciais para a criação de páginas web, junto com os novos recursos e possibilidades que o HTML5 e CSS3 oferecem para a criação de sites com códigos limpos e estruturados com base nas melhores práticas de programação do mercado.
+					
+
+Objetivos
+
+O curso proporciona ao aluno o conhecimento necessário para a criação de sites através de codificação HTML e CSS, utilizando o editor Sublime Text.
+
+Pré-Requisitos
+
+Sistema operacional, Windows ou Mac OS X;
+Gerenciar arquivos, criar pastas, renomear arquivos, etc.
+
+
+A quem se destina
+
+O curso de HTML 5 e CSS3 do DRC, realizado em São Paulo, é destinado a pessoas que desejam criar web sites sem depender de nenhuma ferramenta visual, ou ainda se tornarem desenvolvedores de aplicações web.
+
+
+Conteúdo Programático
+Confira alguns itens do nosso conteúdo
+
+Tags HTML
+
+Fluxo de Interpretação do Navegador
+Árvore de Elementos
+Tipos de Tags
+Utilização
+DOCTYPE
+HTML
+
+Tags Semânticas
+
+Section
+Header
+Article
+Aside
+Nav
+Figure
+Footer
+
+
+
+Tags de Formulário
+
+Form
+Label
+Input
+Radio
+Checkbox
+Select
+Datalist
+Text Area
+Fieldset
+
+CSS
+
+Sintaxe
+Comentários
+Formas de Aplicação
+
+
+Posicionamento
+
+Exibição inline e block
+Visibilidade
+Static
+Relative
+Absolute
+Fixed
+z-index
+Float
+Clear
+Clearfix
+
+
+Tags de Exibição
+
+Body
+H1…H6
+Paragraph
+Image
+Button
+Ordered List
+Unordered List
+Div
+					
+
+Seletores CSS
+Type
+Class
+ID
+Universal
+Externo
+Interno
+Inline
+Adjacent
+Attribute
+Pseudo-elements
+Pseudo-classes
+
+
+Fontes
+Web Safe Fonts
+Famílias
+Unidades de Medidas
+
+
+Box Model
+Áreas e Espaçamentos
+Influência na Largura e Altura
+Calculando Tamanho Total
+CSS Reset
+Valores de Dimensões
+Propriedades de Dimensões
+
+
+Propriedades CSS
+
+Shorthand
+Fundo
+Bordas
+Texto
+Tabela
+Listas
+Multi-colunas
+Construindo o Site
+
+Turmas e Horários
+
+Manhã 09:00 às 13:00 01/06/2017 à 14/06/2017
+Manhã 09:00 às 13:00 31/07/2017 à 11/08/2017
+Tarde 14:00 às 18:00 19/06/2017 à 30/06/2017
+Noite 19:00 às 23:00 18/05/2017 à 31/05/2017
+Noite 19:00 às 23:00 19/06/2017 à 30/06/2017
+Sábado 09:00 às 18:00 20/05/2017 à 24/06/2017
+
+Tem interesse no curso de HTML 5 e CSS3?
+Entre em contato conosco.
+
+
