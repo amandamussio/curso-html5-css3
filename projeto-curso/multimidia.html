@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>O Curso - DRC treinamentos</title>
+
+	<!-- METAS -->
+
+	<!-- Descrição do site limitada a 156 caracteres -->
+	<meta name="description" content="Aprenda HTML5 e CSS3 de forma semântica e em 40 horas">
+
+	<!-- Palavras chaves do meu site -->
+	<meta name="keywords" content="html, html5, css, css3, site, curso, tags, atributos">
+
+	<!-- Autor do site -->
+	<meta name="author" content="Amanda Macedo Mussio">
+
+	<!-- Inicializa meu site na largura do meu dipositivo, e com zoom inicial 1 -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/font-icons.css">
+	<link rel="stylesheet" href="assets/css/interessado.css">
+	<link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+
+	<!-- FONT -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+
+	<!-- FAVICON -->
+	
+
+</head>
+<body>
+
+		<!-- header -->
+		<header id="header-main">
+			<!-- container-header -->
+			<div class="container-header">
+
+				<!-- logo -->
+				<div class="logo">
+					<a href="index.html"><img src="assets/images/logo-html5.png" alt="Curso de HTML5 - Treinamentos" title="Curso de HTML5 - Treinamentos"></a>
+				</div>
+				<!-- /logo -->
+
+				<!-- menu principal -->
+				<nav class="main-menu">
+					<ul>
+						<li><a href="index.html" >Home</a></li>
+						<li><a href="quem-somos.html">Quem Somos</a></li>
+						<li><a href="ocurso.html">O Curso</a></li>
+						<li class="dropdown">
+							<a href="galeria-fotos.html" class="active">Mídias</a>
+							<ul class="submenu">
+								<li><a href="galeria-fotos.html">Galeria de Fotos</a></li>
+								<li><a href="galeria-fotos.html">Áudio</a></li>
+								<li><a href="galeria-fotos.html">Vídeos</a></li>
+							</ul>
+						</li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+				<!-- /menu principal -->
+
+			</div>
+			<!-- /container-header -->
+		</header>
+		<!-- /header -->
+
+		<!-- slider -->
+		<section>
+			<article class="slider-html5">
+				<div class="container">
+					
+					<header>
+						<h2>Bem vindo ao Curso de HTML5 e CSS3</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi sequi cumque, inventore! Excepturi, ullam, ipsum.</p>
+						<a href="#" class="button-empty">Saiba Mais</a>
+					</header>
+
+					<img src="assets/images/html5-css3-image-slider.png" class="image-slider">
+
+				</div>
+			</article>
+		</section>
+		<!-- /slider -->
+
+		<!-- Inicio conteudo principal da minha página -->
+		<main>
+			<div class="multi">
+				<div class="container">
+					
+					<hgroup>
+						<h1 class="title-main">Multimídia</h1>
+						<h2 class="subtitle">Confira o que você vai aprender!</h2>
+					</hgroup>
+
+					<article>
+						<h2>Vídeos e áudios</h2>
+
+						<!-- audio -->
+					<!-- Reprodução Simples de Áudio -->
+					<!-- 
+						controls : Mostra os controles padrão para o áudio na página.
+						autoplay : Faz com que o áudio reproduza automaticamente.
+						loop : Faz com que o áudio repita automaticamente.
+						
+						O atributo preload é usado em elementos audio para carregar arquivos grandes. Ele pode assumir 3 valores:
+
+						"none" não carrega o arquivo
+						"auto" carrega o arquivo
+						"metadata" carrega apenas os meta dados do arquivo
+					-->
+					<audio src="assets/audios/2009-lovers-carvings-bibio.mp3" controls autoplay loop>
+						O seu navegador não suporta o elemento áudio, <a href="http://youtube.com/" target="_blank">clique aqui para baixar</a>.
+					</audio>
+
+					<!-- Reprodução Completa do áudio -->
+					<audio controls>
+						<!--  
+							SUPORTES
+							mp3 - Todos os navegadores
+							wav - meno IE
+							ogg - Chrome, Firefox, Opera
+						 -->
+						<source src="assets/audios/2009-lovers-carvings-bibio.mp3" type="audio/mpeg">
+						<source src="assets/audios/2009-lovers-carvings-bibio.wav" type="audio/wav">
+						<source src="assets/audios/2009-lovers-carvings-bibio.ogg" type="audio/ogg">
+					</audio>
+
+					<!-- Reprodução simples de vídeo -->
+					<video src="assets/videos/getting-started.mp4" autoplay controls width="300" height="250">
+						O seu navegador não possui compatibilidade com video do HTML5, <a href="http://vimeo.com" target="_blank">clique aqui para visualizar</a>
+					</video>
+
+
+					<!-- poster- foto de capa do vídeo (similar a thumb Youtube) -->
+					<video controls poster="assets/images/video-mini03.jpg" width="426" height="240">
+						<!-- 
+							SUPORTES
+							mp4 - IE, FIREFOX, OPERA, SAFARI, CRHOME
+							WEBM - CHROME, FIREFOX, OPERA
+							OGV - CHROME, FIREFOX, OPERA
+						 -->
+
+						<source src="assets/videos/getting-started.mp4" type="video/mp4">
+						<source src="assets/videos/getting-started.webm" type="video/webm">
+						<source src="assets/videos/getting-started.ogv" type="video/ogg">
+						O seu navegador não possui compatibilidade com video do HTML5, <a href="http://vimeo.com" target="_blank">clique aqui para visualizar</a>
+					</video>
+
+					<video width="426" height="240">
+					  <source src="video.mp4" type="video/mp4">
+					  <source src="video.webm" type="video/webm">
+
+					  <object data="flvplayer.swf" type="application/x-shockwave-flash">
+					      <param value="flvplayer.swf" name="movie"/>
+					  </object>
+					</video>
+
+					<!-- <source src="foo.ogg" type="video/ogg; codecs=dirac, speex"> -->
+
+
+
+					<!-- https://vimeo.com/120431661 -->
+
+
+					</article>
+
+					<aside>
+						
+					</aside>
+
+					
+				</div>
+			</section>
+		</main>
+		<!-- fim conteudo principal -->
+
+	
+		<!-- footer-main -->
+		<footer id="footer-main">
+			<div class="container">
+
+				<!-- menu footer -->
+				<nav class="box-footer">
+					<h4 class="title-footer">Institucional</h4>
+					<ul>
+						<li><a href="">Home</a></li>
+						<li><a href="">Quem Somos</a></li>
+						<li><a href="">O Curso</a></li>
+						<li><a href="">Contato</a></li>
+					</ul>
+				</nav>
+
+				<!-- menu footer -->
+				<nav class="box-footer">
+					<h4 class="title-footer">Mídias</h4>
+					<ul>
+						<li><a href="">Galeria de Fotos</a></li>
+						<li><a href="">Áudios</a></li>
+						<li><a href="">Vídeos</a></li>
+					</ul>
+				</nav>
+				
+				<!-- contato footer -->
+				<div class="box-footer">
+					<h4 class="title-footer">Contato</h4>
+
+					<address>Endereço: Rua Joaquim Floriano,733</address>
+					<p>Tel: <a href="tel:113168-2123">11 3168 2123</a></p>
+					<p>Whats: <a href="tel:1199143-4349">11 99143 4349</a></p>
+				</div>
+
+				<!-- Redes sociais footer -->
+				<div class="box-footer">
+					<h4 class="title-footer">Redes Sociais</h4>
+					
+					<ul class="social-medias">
+						<li>
+							<a href="http://facebook.com/" target="_blank">
+								<i class="icon-facebook"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="http://google.com/" target="_blank">
+								<i class="icon-gplus"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="http://linkedin.com/" target="_blank">
+								<i class="icon-linkedin"></i>
+							</a>
+						</li>
+
+						<li>
+							<a href="http://instagram.com/" target="_blank">
+								<i class="icon-instagram"></i>
+							</a>
+						</li>
+					</ul>
+
+				</div>
+
+			</div>
+		</footer>
+		<!-- /footer-main -->
+	
+</body>
+</html>
