@@ -1,4 +1,4 @@
-Tenho interesse no curso de HTML5 e CSS3
+Cadastro de interessado
 
 1 - Preencha o formulário abaixo, e anote o número de protocolo.
 2 - Ligue para 11 xxxx-xxxx, agende um dia e horário.
@@ -33,12 +33,7 @@ Quero fazer o curso
         - Tarde
         - Noite
         - Sábado
-    Data de Interesse
-        -semana
-        -mês
     Cor do certificado
     Preço  
-    Aceito receber as newsletters.
-    Concordo com o termos.
 
 [BOTÃO ENVIAR]

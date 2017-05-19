@@ -22,7 +22,7 @@
 	<link rel="stylesheet" href="assets/css/reset.css">
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/font-icons.css">
-	<link rel="stylesheet" href="assets/css/ocurso.css">
+	<link rel="stylesheet" href="assets/css/interessado.css">
 	<link rel="stylesheet" href="assets/css/jquery.fancybox.css">
 
 	<!-- FONT -->
@@ -89,40 +89,171 @@
 
 		<!-- Inicio conteudo principal da minha página -->
 		<main>
-			<div class="interessado">
+			<section class="interested">
 				<div class="container">
-					
+
+					<h1 class="title-main">Cadastro de interessado</h1>
+
+					<ol>
+						<li>1 - Preencha o formulário abaixo, e anote o número de protocolo.</li>
+						<li>2 - Ligue para 11 xxxx-xxxx, agende um dia e horário.</li>
+						<li>3 - Dirigija -se a nossa unidade no dia e horário do agendamento com RG e CPF</li>
+					</ol>
+
+					<!-- 
+					get - mais veloz menos seguro -buscas
+    				post - um pouco mais lento, enviado por pacotes - senhas informacoes - nao inclui criptografia -->
+
+    				<form action="mailto:email" method="post" name="form-interessado">
+    					<!-- identificacao do usuario -->
+						<fieldset>
+				            <legend>Identificação do Usuário</legend>
+
+				            <div>
+				                <label for="nome">Nome:</label> 
+				                <input type="text" name="nome" id="nome" placeholder="nome completo" maxlength="20" required />
+				            </div>
+
+				            <div>
+				            	 <label for="">Senha:</label> 
+				            	 <input type="password" name="senha" id="senha">
+				            </div>
+
+				            <div>
+				            	<label for="">E-mail:</label>
+				            	<input type="email" name="email" id="email" placeholder="seu email" required>
+				            </div>
+
+				            <div>
+				            	<label>Sexo:</label>
+				                <!-- explicar name iguais -->
+				                <input type="radio" name="sexo" id="masc" checked="checked"> <label for="masc">Masculino</label>
+				                <input type="radio" name="sexo" id="fem"> <label for="fem">Feminino</label>
+				            </div>
+
+				           
+				           	<div>
+				           		<label for="datenasc">Data de Nascimento:</label>
+				           		<input type="date" name="datenasc" id="datenasc" placeholder="dd/oi/p">
+				           	</div>
+
+				        </fieldset>
+				        <!-- fim identificacao do usuario -->
+
+						<!-- endereço -->
+				        <fieldset>
+				            <legend>Endereço</legend>
+
+				            <div>
+					            <label for="">Logradouro: </label> 
+					            <input type="text" placeholder="Rua, Avenida, Alameda">
+				            </div>
+
+				            <div>
+				            	<label for="numero">Número:</label>
+				            	<input type="number" id="numero" name="numero" min="minimovalor" max="numeromaximo">
+				            </div>
+
+				            <div>
+				            	<label for="estado">Estado: </label>
+				            	<select name="estado" id="estado">
+				            		<optgroup label="REGIAO SUDESTE">
+						                <option value="SP">São Paulo</option>
+						                <option value="RJ">Rio de Janeiro</option>
+						            </optgroup>
+						            <optgroup label="REGIAO SUL">
+						            	<option value=""></option>
+				            			<option value=""></option>
+						            </optgroup>
+				            	</select>
+				            </div>
+
+				            <div>
+				            	<label for="cidade">Cidade:</label>
+				            	<input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade" list="listacidades">
+
+				            	<datalist id="listacidades">
+					                <option>teste</option>
+					                <option value="e">e</option>
+					                <option value=""></option>
+					                <option value=""></option>
+				            	</datalist>
+
+				            </div>
+				            
+				        </fieldset> 
+				        <!-- fim endereço --> 
+
+						<!-- Mensagem do Usuário -->
+				        <fieldset>
+				            <legend>Mensagem do Usuário</legend>
+
+				            <div>
+				            	<label for="nivel">Nível de interesse:</label>
+				            	Min <input type="range" id="nivel" name="nivel" min="0" max="10" step="5"> Max 
+				            	<!-- step salto de um em um -->
+				            </div>
+
+				            <div>
+				            	<label for="mensagem">Mensagem:</label>
+				            	<textarea name="mensagem" id="mensagem" cols="45" rows="10" placeholder="sua mensagem aqui"></textarea>
+				            </div>
+				         
+				        </fieldset>  
+				        <!-- fim Mensagem do Usuário -->
+
+						<!-- Quero fazer o curso -->
+				        <fieldset>
+				        <!-- fieldset>legend{Quero fazer o curso}+div*6>label+input -->
+				        	<legend>Quero fazer o curso</legend>
+
+				        	<div>
+				        		<label>Horário de interesse</label>
+
+				        		<input type="radio" id="manha" name="horario">
+				        		<label for="manha">Manhã</label>
+
+				        		<input type="radio" id="tarde" name="horario">
+				        		<label for="tarde">Tarde</label>
+
+				        		<input type="radio" id="noite" name="horario">
+				        		<label for="noite">Noite</label>
+
+				        		<input type="radio" id="sabado" name="horario">
+				        		<label for="sabado">Sábado</label>
+				        	</div>
+				        	<div>
+				        		<label for="">Data de Interesse</label>
+				        		<input type="month" id="mes" name="mes">
+				        		<input type="week" id="mes" name="mes">
+				        		<input type="time" id="mes" name="mes">
+				        	</div>
+
+				        	<div>
+				        		<label for="cor">Cor do certificado</label>
+				        		<input type="color" id="cor" name="cor">
+				        	</div>
+
+				        	<div>
+				        		<label for="preco">Preço</label>
+				        		R$ <input type="text" readonly value="1300,00">
+				        	</div>
+
+				        </fieldset>
+				        <!-- fim Quero fazer o curso -->
+
+				        <button type="submit">Enviar</button>
+				        <input type="submit" value="enviar">
+				        <input type="reset" value="Limpar Campos">
+
+    				</form>
 					
 				</div>
-			</div>
+			</section>
 		</main>
 		<!-- fim conteudo principal -->
 
-		<!-- newsletter -->
-		<div class="newsletter">
-			<div class="container">
-				
-				<div class="call-action">
-					<h2 class="title-main">Receba nossas novidades:</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, ratione?</p>
-				</div>
-
-				<form action="" method="post" validate>
-					<div>
-						<input type="text" name="nome" placeholder="Nome" class="input-news" required>
-					</div>
-					<div>
-						<input type="email" name="email" placeholder="E-mail" class="input-news" required>
-					</div>
-					<div>
-						<input type="submit" name="send-form" class="button-color" value="Enviar">
-					</div>
-				</form>
-
-			</div>
-		</div>
-		<!-- /newsletter -->
-
+	
 		<!-- footer-main -->
 		<footer id="footer-main">
 			<div class="container">

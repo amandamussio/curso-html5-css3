@@ -1,0 +1,37 @@
+.interested {
+    padding: 60px 0;
+}
+.interested .title-main {
+	margin-bottom: 30px;
+}
+.interested ol {
+	margin-bottom: 40px;
+}
+.interested ol li {
+	margin-bottom: 5px;
+}
+/*form*/ 
+fieldset {
+	border: 1px dashed #ccc;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+fieldset legend {
+	padding: 0 10px;
+	color: #e44d26;
+}
+fieldset div {
+	margin-bottom: 20px;
+}
+input {
+	height: 34px;
+	padding-left: 10px;
+	font-size: 0.8em;
+}
+input[type=text],
+input[type=email],
+input[type=password]
+textarea {
+	display: block;
+	width: 100%;
+}

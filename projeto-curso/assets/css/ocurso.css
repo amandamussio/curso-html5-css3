@@ -1,0 +1,121 @@
+.course {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.course mark {
+	background-color: skyblue;
+}
+
+/* Formatação de texto */
+.course hgroup {
+	margin-bottom: 30px;
+}
+
+.course p {
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.course h3 {
+	margin-bottom: 10px;	
+}
+
+.course section h2,
+.course h5 {
+	margin: 40px 0 25px 0;
+}
+
+.course h3,
+.course section h2,
+.course h5  {
+	font-weight: bold;
+	font-size: 1.2em;	
+}
+
+.course .content-item-title {
+	font-weight: bold;
+}
+
+/*Colunas*/
+.course .content-items {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+    column-gap: 30px;
+
+    /*no maximo esse tamanho*/
+    -webkit-column-width: 300px;
+    -moz-column-width: 300px;
+    column-width: 300px;
+}
+
+
+/*listas*/
+.course .content-items ul {
+	padding-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.course .content-items ul li {
+	list-style: circle;
+}
+
+
+.course .code-example pre {
+  background-color: #333;
+  padding: 15px;
+  color: white;
+}
+
+/*tables*/
+.course .table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.course .table td, .table th {
+  padding: 15px 10px;
+  border: 1px solid #ccc;
+}
+
+.course .table th {
+  background-color: #ececec;
+
+  font-size: 1.1em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.course .table tr:nth-child(even) {
+  background-color: #f7f7f7;
+}
+
+.course .table tr:hover {
+  background-color: #faffcc;
+}
+
+/*link*/
+a.button-blue {
+	padding: 10px 30px;
+    display: inline-block;
+}
+a.button-blue:hover {
+	background-color: #e44d26;
+}
+
+/*reference*/
+.reference {
+  margin-top: 20px;
+}
+.reference h6 {
+  font-weight: bold;
+}
+.reference ol{
+  padding-left: 20px;
+  list-style-type: decimal;
+  font-size: 0.8em;
+}
