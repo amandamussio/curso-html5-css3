@@ -23,7 +23,6 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/font-icons.css">
 	<link rel="stylesheet" href="assets/css/interessado.css">
-	<link rel="stylesheet" href="assets/css/jquery.fancybox.css">
 
 	<!-- FONT -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
@@ -110,22 +109,22 @@
 				            <legend>Identificação do Usuário</legend>
 
 				            <div>
-				                <label for="nome">Nome:</label> 
+				                <label for="nome" class="label-block">Nome:</label> 
 				                <input type="text" name="nome" id="nome" placeholder="nome completo" maxlength="20" autofocus required />
 				            </div>
 
 				            <div>
-				            	 <label for="">Senha:</label> 
+				            	 <label for="senha" class="label-block">Senha:</label> 
 				            	 <input type="password" name="senha" id="senha">
 				            </div>
 
 				            <div>
-				            	<label for="">E-mail:</label>
+				            	<label for="email" class="label-block">E-mail:</label>
 				            	<input type="email" name="email" id="email" placeholder="seu email" required>
 				            </div>
 
 				            <div>
-				            	<label>Sexo:</label>
+				            	<label class="label-block">Sexo:</label>
 				                <!-- explicar name iguais -->
 				                <input type="radio" name="sexo" id="masc" checked="checked"> <label for="masc">Masculino</label>
 				                <input type="radio" name="sexo" id="fem"> <label for="fem">Feminino</label>
@@ -133,12 +132,12 @@
 
 				           
 				           	<div>
-				           		<label for="datenasc">Data de Nascimento:</label>
+				           		<label for="datenasc" class="label-block">Data de Nascimento:</label>
 				           		<input type="date" name="datenasc" id="datenasc" placeholder="dd/oi/p">
 				           	</div>
 
 				           	<div>
-				           		<label for="facebook">Facebook</label>
+				           		<label for="facebook" class="label-block">Facebook</label>
 				           		<input type="url" id="facebook" name="facebook">
 				           	</div>
 
@@ -150,17 +149,17 @@
 				            <legend>Endereço</legend>
 
 				            <div>
-					            <label for="">Logradouro: </label> 
-					            <input type="text" placeholder="Rua, Avenida, Alameda">
+					            <label for="logradouro" class="label-block">Logradouro: </label> 
+					            <input type="text" id="logradouro" class="logradouro" placeholder="Rua, Avenida, Alameda">
 				            </div>
 
 				            <div>
-				            	<label for="numero">Número:</label>
+				            	<label for="numero" class="label-block">Número:</label>
 				            	<input type="number" id="numero" name="numero" min="minimovalor" max="numeromaximo">
 				            </div>
 
 				            <div>
-				            	<label for="estado">Estado: </label>
+				            	<label for="estado" class="label-block">Estado: </label>
 				            	<select name="estado" id="estado">
 				            		<optgroup label="REGIAO SUDESTE">
 						                <option value="SP">São Paulo</option>
@@ -174,7 +173,7 @@
 				            </div>
 
 				            <div>
-				            	<label for="cidade">Cidade:</label>
+				            	<label for="cidade" class="label-block">Cidade:</label>
 				            	<input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade" list="listacidades">
 
 				            	<datalist id="listacidades">
@@ -194,13 +193,13 @@
 				            <legend>Mensagem do Usuário</legend>
 
 				            <div>
-				            	<label for="nivel">Nível de interesse:</label>
+				            	<label for="nivel" class="label-block">Nível de interesse:</label>
 				            	Min <input type="range" id="nivel" name="nivel" min="0" max="10" step="5"> Max 
 				            	<!-- step salto de um em um -->
 				            </div>
 
 				            <div>
-				            	<label for="mensagem">Mensagem:</label>
+				            	<label for="mensagem" class="label-block">Mensagem:</label>
 				            	<textarea name="mensagem" id="mensagem" cols="45" rows="10" placeholder="sua mensagem aqui"></textarea>
 				            </div>
 				         
@@ -213,34 +212,34 @@
 				        	<legend>Quero fazer o curso</legend>
 
 				        	<div>
-				        		<label>Horário de interesse</label>
+				        		<label class="label-block">Horário de interesse</label>
 
 				        		<input type="radio" id="manha" name="horario">
-				        		<label for="manha">Manhã</label>
+				        		<label for="manha"><span></span>Manhã</label>
 
 				        		<input type="radio" id="tarde" name="horario">
-				        		<label for="tarde">Tarde</label>
+				        		<label for="tarde"><span></span>Tarde</label>
 
 				        		<input type="radio" id="noite" name="horario">
-				        		<label for="noite">Noite</label>
+				        		<label for="noite"><span></span>Noite</label>
 
 				        		<input type="radio" id="sabado" name="horario">
-				        		<label for="sabado">Sábado</label>
+				        		<label for="sabado"><span></span>Sábado</label>
 				        	</div>
 				        	<div>
-				        		<label for="">Data de Interesse</label>
+				        		<label class="label-block">Data de Interesse</label>
 				        		<input type="month" id="mes" name="mes">
 				        		<input type="week" id="mes" name="mes">
 				        		<input type="time" id="mes" name="mes">
 				        	</div>
 
 				        	<div>
-				        		<label for="cor">Cor do certificado</label>
+				        		<label for="cor" class="label-block">Cor do certificado</label>
 				        		<input type="color" id="cor" name="cor">
 				        	</div>
 
 				        	<div>
-				        		<label for="preco">Preço</label>
+				        		<label for="preco" class="label-block">Preço</label>
 				        		R$ <input type="text" readonly value="1300,00">
 				        	</div>
 
