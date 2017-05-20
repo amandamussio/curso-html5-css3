@@ -1,8 +1,7 @@
-Curso de HTML5 e CSS3
-Confira o que você vai aprender!
+CURSO DE HTML5 E CSS3
+confira o que você vai aprender!
 
 Aprenda no curso de HTML os conceitos essenciais para a criação de páginas web, junto com os novos recursos e possibilidades que o HTML5 e CSS3 oferecem para a criação de sites com códigos limpos e estruturados com base nas melhores práticas de programação do mercado.
-					
 
 Objetivos
 
@@ -10,20 +9,15 @@ O curso proporciona ao aluno o conhecimento necessário para a criação de site
 
 Pré-Requisitos
 
-Sistema operacional, Windows ou Mac OS X;
-Gerenciar arquivos, criar pastas, renomear arquivos, etc.
-
+Sistema operacional, Windows1 ou Mac OS X2; Gerenciar arquivos, criar pastas, renomear arquivos, etc.
 
 A quem se destina
 
 O curso de HTML 5 e CSS3 do DRC, realizado em São Paulo, é destinado a pessoas que desejam criar web sites sem depender de nenhuma ferramenta visual, ou ainda se tornarem desenvolvedores de aplicações web.
 
-
 Conteúdo Programático
-Confira alguns itens do nosso conteúdo
 
 Tags HTML
-
 Fluxo de Interpretação do Navegador
 Árvore de Elementos
 Tipos de Tags
@@ -32,7 +26,6 @@ DOCTYPE
 HTML
 
 Tags Semânticas
-
 Section
 Header
 Article
@@ -41,10 +34,7 @@ Nav
 Figure
 Footer
 
-
-
 Tags de Formulário
-
 Form
 Label
 Input
@@ -56,17 +46,13 @@ Text Area
 Fieldset
 
 CSS
-
 Sintaxe
 Comentários
 Formas de Aplicação
 
-
 Posicionamento
-
 Exibição inline e block
 Visibilidade
-Static
 Relative
 Absolute
 Fixed
@@ -75,9 +61,7 @@ Float
 Clear
 Clearfix
 
-
 Tags de Exibição
-
 Body
 H1…H6
 Paragraph
@@ -86,7 +70,6 @@ Button
 Ordered List
 Unordered List
 Div
-					
 
 Seletores CSS
 Type
@@ -101,12 +84,10 @@ Attribute
 Pseudo-elements
 Pseudo-classes
 
-
 Fontes
 Web Safe Fonts
 Famílias
 Unidades de Medidas
-
 
 Box Model
 Áreas e Espaçamentos
@@ -116,9 +97,7 @@ CSS Reset
 Valores de Dimensões
 Propriedades de Dimensões
 
-
 Propriedades CSS
-
 Shorthand
 Fundo
 Bordas
@@ -128,16 +107,37 @@ Listas
 Multi-colunas
 Construindo o Site
 
+
+Código
+
+Veja um trecho de código que você aprenderá no curso.
+
+								/*listas*/
+								.course .content-items ul {
+									padding-left: 20px;
+									margin-top: 20px;
+									margin-bottom: 30px;
+								}
+								.course .content-items ul li {
+									list-style: circle;
+								}
+
+							
 Turmas e Horários
 
-Manhã 09:00 às 13:00 01/06/2017 à 14/06/2017
-Manhã 09:00 às 13:00 31/07/2017 à 11/08/2017
-Tarde 14:00 às 18:00 19/06/2017 à 30/06/2017
-Noite 19:00 às 23:00 18/05/2017 à 31/05/2017
-Noite 19:00 às 23:00 19/06/2017 à 30/06/2017
-Sábado 09:00 às 18:00 20/05/2017 à 24/06/2017
+Horários	Datas
+Manhã 09:00 às 13:00	01/06/2017 à 14/06/2017
+Manhã 09:00 às 13:00	31/07/2017 à 11/08/2017
+Tarde 14:00 às 18:00	19/06/2017 à 30/06/2017
+Noite 19:00 às 23:00	18/05/2017 à 31/05/2017
+Noite 19:00 às 23:00	19/06/2017 à 30/06/2017
+Sábado 09:00 às 18:00	20/05/2017 à 24/06/2017
 
 Tem interesse no curso de HTML 5 e CSS3?
-Entre em contato conosco.
+
+ENTRE EM CONTATO CONOSCO
 
 
+Referências
+Sistema operacional da Microsoft
+Sistema operacional da Apple

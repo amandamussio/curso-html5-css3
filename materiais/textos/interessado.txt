@@ -4,7 +4,6 @@ Cadastro de interessado
 2 - Ligue para 11 xxxx-xxxx, agende um dia e horário.
 3 - Dirigija -se a nossa unidade no dia e horário do agendamento com RG e CPF
 
-
 [Formulário]
 
 Identificacao do Usuário
@@ -15,7 +14,7 @@ Identificacao do Usuário
         - Masculino
         - Feminino
     Data de Nascimento:
-    Facebook:
+    Facebook ou site:
 
 Endereço
     Logradouro:
@@ -24,7 +23,7 @@ Endereço
     Cidade:
 
 Mensagem do Usuário
-    Grau de Urgencia:
+    Nível de interesse:
     Mensagem:
 
 Quero fazer o curso
@@ -33,6 +32,7 @@ Quero fazer o curso
         - Tarde
         - Noite
         - Sábado
+    Data de Interesse
     Cor do certificado
     Preço  
 

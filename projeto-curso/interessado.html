@@ -111,7 +111,7 @@
 
 				            <div>
 				                <label for="nome">Nome:</label> 
-				                <input type="text" name="nome" id="nome" placeholder="nome completo" maxlength="20" required />
+				                <input type="text" name="nome" id="nome" placeholder="nome completo" maxlength="20" autofocus required />
 				            </div>
 
 				            <div>
@@ -135,6 +135,11 @@
 				           	<div>
 				           		<label for="datenasc">Data de Nascimento:</label>
 				           		<input type="date" name="datenasc" id="datenasc" placeholder="dd/oi/p">
+				           	</div>
+
+				           	<div>
+				           		<label for="facebook">Facebook</label>
+				           		<input type="url" id="facebook" name="facebook">
 				           	</div>
 
 				        </fieldset>
@@ -162,8 +167,8 @@
 						                <option value="RJ">Rio de Janeiro</option>
 						            </optgroup>
 						            <optgroup label="REGIAO SUL">
-						            	<option value=""></option>
-				            			<option value=""></option>
+						            	<option value="SC">Santa Catarina</option>
+				            			<option value="FL">Florianópolis</option>
 						            </optgroup>
 				            	</select>
 				            </div>
@@ -173,10 +178,10 @@
 				            	<input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade" list="listacidades">
 
 				            	<datalist id="listacidades">
-					                <option>teste</option>
-					                <option value="e">e</option>
-					                <option value=""></option>
-					                <option value=""></option>
+					                <option>Rio de Janeiro</option>
+					                <option>São Paulo</option>
+					                <option></option>
+					                <option></option>
 				            	</datalist>
 
 				            </div>
