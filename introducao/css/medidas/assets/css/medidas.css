@@ -1,0 +1,22 @@
+/* 
+	Absolutas
+	
+	São medidas que não estão referenciadas a qualquer outra unidade.
+
+	cm - centímetro: 96px/2.54;
+	in - polegada: 2,54cm = 96px;
+	pt - point: 1/72in;
+	px - pixel: 1/96in;
+
+
+	Relativas
+
+	São medidas calculadas em relação a uma outra unidade de medida. Usar unidades de medidas relativas é mais apropriado para se obter ajustes em diferentes tipos de mídia. 
+
+	em: ao tamanho da fonte ('font-size') do elemento no qual a unidade é declarada;
+	rem: ...ao tamanho da fonte ('font-size') do elemento raiz do documento.
+	vw: 1% da largura da viewport;
+	vh: 1% da altura da viewport;
+	%: ;
+ */
+
