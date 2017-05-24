@@ -20,3 +20,18 @@
 	%: ;
  */
 
+/*  */
+
+body {
+	font-size: 1cm;
+}
+
+.classe1 p {
+	font-size:  14px;
+}
+
+.box {
+	width: 20vw;
+	height: 30vh;
+	background-color: salmon;
+}

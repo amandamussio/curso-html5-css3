@@ -1,0 +1,64 @@
+
+/* 3 propriedades cor, estilo e tamanho */
+
+/* 
+	style
+	none: nenhuma borda
+	hidden: equivalente a none
+	dotted: borda pontilhada
+	dashed: borda tracejada
+	solid: borda contínua
+	double: borda dupla
+	groove: borda entalhada
+	ridge: borda em ressalto
+	inset: borda em baixo relevo
+	outset: borda em alto relevo
+
+ */
+
+.box {
+	width: 200px;
+	height: 150px;
+	margin: 25px;
+}
+
+.box1 {
+	border-width: 2px;
+    border-style: solid;
+    border-color: #00f;
+/* 	border-top-color: #000;
+	border-top-style: dashed; */
+}
+
+.box2 {
+	border: 3px red dotted;
+}
+
+.box3 {
+	border: 6px double green;
+}
+
+.box4 {
+	border: 3px gold dashed;
+}
+
+.box5 {
+	border: 5px salmon groove;
+}
+
+.box6 {
+	border: 10px lightblue inset;
+}
+
+.title {
+	border-bottom: 10px ridge darkgoldenrod;
+	border-left: 10px outset darkturquoise;
+}
+
+.radius {
+	border-radius: 20px;
+}
+
+.circle {
+	border-radius
+}
