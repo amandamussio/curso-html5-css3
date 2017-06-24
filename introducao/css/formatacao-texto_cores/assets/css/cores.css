@@ -1,0 +1,26 @@
+/*
+	HEXADECIMAL
+
+	#ff0000
+
+	RGB (255,255,255);
+	RGBA
+
+	rgba(255,255,255,0.1)
+	de zero a um 
+	0 -> transparente a 1 -> cor na íntegra
+
+	HSL
+	HSLA
+	hsla(tom,saturação,luminosidade,alpha)
+	hsla(0,80%,50%,0.1);
+
+*/
+
+body {
+	background-color: #99D9EA;
+}
+
+.text-white {
+	background-color: rgba(255,255,255,0.4);
+}

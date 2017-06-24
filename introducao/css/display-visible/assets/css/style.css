@@ -1,0 +1,57 @@
+.links-inline {
+	background-color: lightblue;
+	padding: 5px 25px;
+	margin-left: 5px;
+	color: darkblue;
+	text-decoration: none;
+	margin-bottom: 50px;
+}
+
+.menu {
+	margin-bottom: 20px;
+	margin-top: 20px;
+	background-color: #133042;
+	padding: 30px;
+}
+.menu ul li  {
+	display: inline-block;
+	/* tranformo elemento em linha aceitando tamanhos */
+	background-color: #f1935d;
+	color: white;
+}
+.menu ul li a {
+	color: inherit;
+	text-decoration: none;
+	padding: 10px 30px;
+	display: inline-block;	
+}
+.menu ul li:hover {
+	background-color: #fff;
+	color: #f1935d;
+}
+
+/*Block*/
+.block {
+	margin-bottom: 10px;
+	background-color: #000;
+	color: gold;
+	padding: 30px;
+	display: block;
+	/*elementos tem comportamento de bloco, assumem a largura toda da página*/
+}
+
+/*table*/
+.colunas {
+	background-color: #ccc;
+	display: table;
+	/*comportamento de tabela ao elemento*/
+	margin-right: auto;
+	margin-left: auto;
+	/*margin left e right auto centraliza o elemento*/
+}
+.item {
+	display: table-cell;
+	border: 1px solid red;
+	padding: 30px;
+}
+

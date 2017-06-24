@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'Barrio';
+	src: url("../fonts/Barrio-Regular.ttf"),
+		 url("../fonts/barrio-regular-webfont.woff"),
+		 url("../fonts/barrio-regular-webfont.woff2");
+	font-style: normal;
+	/*https://www.fontsquirrel.com/tools/webfont-generator*/
+}
+
+* {
+	/* -wmso- */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	/* espaçamento entre linhas */
+	line-height: 1.5em;
+	/*abreviaçao das propriedades de font*/
+	font: italic bold 24px Tahoma, sans-serif;
+}
+
+.serif {
+	/* Fontes Universais que contem no computador */
+	font-family: "Times New Roman", Arial, "Arial Black", serif;
+}
+
+.monospace {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.sans-serif {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold; 
+	/*
+		pesos da fonte
+		
+		100 - lembrar de olhar o safari quando usar
+		200
+		300
+		400 
+		500
+		600 
+		700
+		800
+		900
+
+		lighter
+		normal
+		bold
+		bolder 
+	*/
+}
+
+.font-personalizada {
+	font-family: 'Barrio';
+	/*text-decoration: underline;*/
+	text-decoration: overline;
+}
+
+/* alinhamentos de texto  */
+.centralizado {
+	text-align: center;
+}
+
+.direita {
+	text-align: right;
+}
+
+.esquerda {
+	text-align: left;
+}
+
+.maiscula {
+	text-transform: uppercase;
+}
+
+.minuscula {
+	text-transform: lowercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+

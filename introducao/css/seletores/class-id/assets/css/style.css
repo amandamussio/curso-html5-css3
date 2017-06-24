@@ -1,0 +1,8 @@
+.box {
+	background-color: salmon;
+	text-align: center;
+	font-family: Verdana;
+}
+#destaque-texto {
+	font-weight: bold;
+}

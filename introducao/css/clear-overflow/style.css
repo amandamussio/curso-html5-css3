@@ -1,0 +1,76 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	background-color: #ccc;
+}
+.conteudo {
+	background-color: skyblue;
+/*	overflow: auto;
+	height: 600px;*/
+	/*overflow: scroll;
+	height: 300px;*/
+	min-height: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.artigo {
+	background-color: #fff;
+	padding: 15px;
+	width: 50%;
+	margin-bottom: 10px;
+}
+.artigo p {
+	padding: 15px;
+	color: blue;
+}
+.artigo-left {
+	float: left;
+}
+.artigo-right {
+	float: right;
+}
+
+.conteudo2 {
+	background-color: #000;
+}
+/*clearfix*/
+.clearfix:before,
+.clearfix:after {
+	/*criando pseudo elementos*/
+	content: '';
+	display: table;
+	/*pegando o tamanho extado do conteudo*/
+}
+.clearfix:after {
+	clear: both;
+	/*limpando as flutuaçoes*/
+}
+
+
+
+.bolinha {
+	font-size: 30px;
+	color: orange;
+}
+.bolinha:before,
+.bolinha:after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	background-color: orange;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	border: 3px dotted white;
+}
+.bolinha:before {
+	margin-right: 10px;
+}
+.bolinha:after {
+	margin-left: 10px;
+}

@@ -1,0 +1,37 @@
+/*
+	Seletores de atributo
+*/
+
+a[target=_blank] {
+	color: salmon;
+}
+
+input {
+	background-color: yellow;
+}
+
+input[type=email] {
+	color: red;
+}
+/*procura o termo que está contido no meio do atributo*/
+a[href*=book] {
+	background-color: black;
+}
+
+/* finaliza com o termo */
+a[href$=io] {
+	background-color: lightblue;
+}
+
+/*inicia com o termo*/
+a[href^=io] {
+	background-color: lightblue;
+}
+
+/* 
+	pega por qualquer tag que tiver aquele atributo 
+ 	e tiver contido o termo moon
+*/
+[class*=moon] {
+	background-color: black;
+}
